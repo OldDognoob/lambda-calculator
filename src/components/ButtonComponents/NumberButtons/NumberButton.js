@@ -1,6 +1,6 @@
 import React from "react";
 
-const NumberButton = () => {
+export const NumberButton = (props) => {
   return (
     // button added
     <button> 
@@ -9,4 +9,4 @@ const NumberButton = () => {
     </button>
   );
 };
-export {NumberButton}
+export default NumberButton;
